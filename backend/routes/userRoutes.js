@@ -43,8 +43,7 @@ transporter.use('compile', hbs(handlebarOptions));
 // Sample users array (replace this with your actual array of users)
 const users = [
   { name: 'Digital Examination', email: 'mamathavihari0210@gmail.com' },
-  // { name: 'Akash', email: 'gb11.gpil@gmail.com' },
-  // Add more users as needed
+   // Add more users as needed
 ];
 
 
@@ -624,7 +623,7 @@ router.post('/submit-form', upload.fields([
               if (results.length !== 0) {
                 console.log(results)
                 const { exam_date, StartTime, EndTime } = results[0]
-                const exam_link = "https://cd1d-2406-b400-b4-b51b-ac7f-3c17-eceb-77b7.ngrok-free.app/login"
+                const exam_link = "https://4fb4077e9370.ngrok-free.app/login"
 
                 const mailOptions = {
                   from: '"Brightcom Group" <mamathavihari0210@gmail.com>',
